@@ -17,9 +17,9 @@ Note that your program does not need to handle parentheses, since RPN makes arit
 async function main() {
   try {
     // E.g #1
-    const expression = '9 5 3 + 2 4 ^ - +';
+    // const expression = '9 5 3 + 2 4 ^ - +';
     // E.g #2
-    // const expression = '4 3 * 8 2 - / 4 8 3 - 3 ^ 5 20 + sqrt / * +';
+    const expression = '4 3 * 8 2 - / 4 8 3 - 3 ^ 5 20 + sqrt / * +';
     const rpn = new RPN(expression); // Expected Output -> 102
     const result = rpn.evaluate();
     console.log(result);

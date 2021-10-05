@@ -15,12 +15,15 @@ export class RPN {
       } else {
         stack.push(Number(item));
       }
+      console.log(stack);
     });
     return stack;
   }
 
   performOperation(stack: number[], operation: Operator) {
     let result, x, y;
+    // debug
+    console.log('Performing Operation', operation);
     switch (operation) {
       case '^':
         y = stack.pop();
