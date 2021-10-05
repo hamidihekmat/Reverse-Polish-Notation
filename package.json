@@ -1,0 +1,27 @@
+{
+  "name": "SimpleWebCrawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hamidihekmat/SimpleWebCrawler.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node --no-deprecation dist/src/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.10",
+    "ts-node": "^10.2.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.2",
+    "@types/puppeteer": "^5.4.4",
+    "@types/uuid": "^8.3.1"
+  }
+}
