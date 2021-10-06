@@ -1,4 +1,4 @@
-type Operator = '+' | '-' | '*' | '^' | 'sqrt';
+type Operator = '+' | '-' | '*' | '^' | '/' | 'sqrt';
 
 export class RPN {
   expression: string[];
